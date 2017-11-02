@@ -10,20 +10,18 @@ func numberOfTwos(maxNumber: Int) -> Int {
     return count
 }
 
-class Humanize {
-    func humanize(_ param: String?) -> String {
-        guard let unwrappedParamater = param else {
-            return ""
-        }
-        var copyOfParam = ""
-        for (index, char) in unwrappedParamater.enumerated() {
-            if index == 0 {
-                copyOfParam += String(char).capitalized
-            } else {
-                copyOfParam += String(char)
-            }
-            
-        }
-        return copyOfParam
+func humanize(_ param: String?) -> String {
+    guard let unwrappedParamater = param else {
+        return ""
     }
+    var copyOfParam = ""
+    for (index, char) in unwrappedParamater.enumerated() {
+        if index == 0 {
+            copyOfParam += String(char).capitalized
+        } else {
+            copyOfParam += String(char)
+        }
+        
+    }
+    return copyOfParam
 }

@@ -11,9 +11,8 @@
 		F9719F151FAA8DD4006E935D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9719F141FAA8DD4006E935D /* ViewController.swift */; };
 		F9719F181FAA8DD4006E935D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9719F161FAA8DD4006E935D /* Main.storyboard */; };
 		F9719F1A1FAA8DD4006E935D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9719F191FAA8DD4006E935D /* Assets.xcassets */; };
-		F9719F251FAA8DD4006E935D /* mathStuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9719F241FAA8DD4006E935D /* mathStuffTests.swift */; };
+		F9719F251FAA8DD4006E935D /* MathStuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9719F241FAA8DD4006E935D /* MathStuffTests.swift */; };
 		F9719F301FAA8E0C006E935D /* MathStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9719F2F1FAA8E0C006E935D /* MathStuff.swift */; };
-		F9719F321FAA91F2006E935D /* HumanizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9719F311FAA91F2006E935D /* HumanizeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +33,9 @@
 		F9719F191FAA8DD4006E935D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9719F1B1FAA8DD4006E935D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9719F201FAA8DD4006E935D /* mathStuffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mathStuffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9719F241FAA8DD4006E935D /* mathStuffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathStuffTests.swift; sourceTree = "<group>"; };
+		F9719F241FAA8DD4006E935D /* MathStuffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathStuffTests.swift; sourceTree = "<group>"; };
 		F9719F261FAA8DD4006E935D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9719F2F1FAA8E0C006E935D /* MathStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathStuff.swift; sourceTree = "<group>"; };
-		F9719F311FAA91F2006E935D /* HumanizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanizeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +90,7 @@
 		F9719F231FAA8DD4006E935D /* mathStuffTests */ = {
 			isa = PBXGroup;
 			children = (
-				F9719F241FAA8DD4006E935D /* mathStuffTests.swift */,
-				F9719F311FAA91F2006E935D /* HumanizeTests.swift */,
+				F9719F241FAA8DD4006E935D /* MathStuffTests.swift */,
 				F9719F261FAA8DD4006E935D /* Info.plist */,
 			);
 			path = mathStuffTests;
@@ -211,8 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9719F251FAA8DD4006E935D /* mathStuffTests.swift in Sources */,
-				F9719F321FAA91F2006E935D /* HumanizeTests.swift in Sources */,
+				F9719F251FAA8DD4006E935D /* MathStuffTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
